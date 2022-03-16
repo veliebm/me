@@ -22,13 +22,6 @@
   text-decoration: none;
 }
 
-/* Change navbar link color on hover */
-.topnav a:hover,
-.topnav a:focus,
-.topnav a:active {
-  background-color: var(#ddd);
-}
-
 /* Make navbar mobile friendly */
 @media screen and (max-width: 400px) {
   .topnav a {
