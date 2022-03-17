@@ -26,7 +26,8 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>Benjamin Velie</h1>
         <p className={styles.description}>
-          I&apos;m a software developer who&apos;s also really interested in brains.
+          I&apos;m a software developer who&apos;s also really interested in
+          brains.
         </p>
       </main>
     </div>
