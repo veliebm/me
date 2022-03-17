@@ -24,10 +24,11 @@ export default function Home() {
       </header>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Benjamin Velie</h1>
-        <p className={styles.description}>
-          I&apos;m a software developer who&apos;s also really interested in brains.
-        </p>
+        <p className={styles.description}>My resume:</p>
+        <iframe
+          className={styles.embedded}
+          src="https://docs.google.com/document/d/e/2PACX-1vQajbIrCueAv_H4BsU5TOF4pL54rYGjav2T-VXMylafMRHf-tjKk01rWpCkGeY0w_cppjJt0MAIwsuy/pub"
+        ></iframe>
       </main>
     </div>
   );
