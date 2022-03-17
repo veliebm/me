@@ -18,6 +18,9 @@ export default function Home() {
         <Link href="/contact">
           <a>Contact</a>
         </Link>
+        <Link href="/resume">
+          <a>Resume</a>
+        </Link>
       </header>
 
       <main className={styles.main}>
