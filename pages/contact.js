@@ -27,7 +27,7 @@ export default function Home() {
         <h1 className={styles.title}>Contact Me</h1>
         <p className={styles.description}>
           You can contact me via <a href="mailto:veliebm@gmail.com">email</a> if
-          you'd like.
+          you&apos;d like.
         </p>
         <p className={styles.description}>
           Consider also checking out my{" "}
