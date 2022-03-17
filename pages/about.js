@@ -15,15 +15,20 @@ export default function Home() {
         <Link href="/">
           <a>Home</a>
         </Link>
-        <Link href="/about">
+        <Link href="/contact">
           <a>Contact</a>
         </Link>
       </header>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Benjamin Velie</h1>
+        <h1 className={styles.title}>Contact Me</h1>
         <p className={styles.description}>
-          I'm a software developer who's also really interested in brains.
+          You can contact me via <a href="mailto:veliebm@gmail.com">email</a> if
+          you'd like.
+        </p>
+        <p className={styles.description}>
+          Consider also checking out my{" "}
+          <a href="https://github.com/veliebm">GitHub</a>.
         </p>
       </main>
     </div>
