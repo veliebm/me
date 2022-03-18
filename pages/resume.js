@@ -18,7 +18,7 @@ export default function Home() {
         <p className={styles.description}>My resume:</p>
         <iframe
           className={styles.embedded}
-          src="https://docs.google.com/document/d/e/2PACX-1vQajbIrCueAv_H4BsU5TOF4pL54rYGjav2T-VXMylafMRHf-tjKk01rWpCkGeY0w_cppjJt0MAIwsuy/pub"
+          src="https://docs.google.com/document/d/e/2PACX-1vQajbIrCueAv_H4BsU5TOF4pL54rYGjav2T-VXMylafMRHf-tjKk01rWpCkGeY0w_cppjJt0MAIwsuy/pub?embedded=true"
         ></iframe>
       </main>
     </div>
