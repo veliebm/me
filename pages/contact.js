@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Contact - Benjamin Velie</title>
+        <title>Contact</title>
         <meta name="description" content="A site for all things Ben." />
         <link rel="icon" href="/favicon.png" />
       </Head>
