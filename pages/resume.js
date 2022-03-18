@@ -15,11 +15,14 @@ export default function Home() {
       <Nav />
 
       <main className={styles.main}>
-        <p className={styles.description}>My resume:</p>
-        <iframe
-          className={styles.embedded}
-          src="https://docs.google.com/document/d/e/2PACX-1vQajbIrCueAv_H4BsU5TOF4pL54rYGjav2T-VXMylafMRHf-tjKk01rWpCkGeY0w_cppjJt0MAIwsuy/pub?embedded=true"
-        ></iframe>
+        <h1 className={styles.title}>Resume</h1>
+        <p className={styles.description}>
+          Click{" "}
+          <a href="http://docs.google.com/document/d/1xBtPqaJIJh2-B5lSKAosCDThjqCF55ZrNGABK-p4G6E/export?format=pdf">
+            here
+          </a>{" "}
+          to download.
+        </p>
       </main>
     </div>
   );
