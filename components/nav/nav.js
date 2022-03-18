@@ -1,0 +1,19 @@
+import React from "react";
+import Link from "next/link";
+import styles from "../../styles/Home.module.css";
+
+function Nav() {
+  return <nav className={styles.topnav}>
+    <Link href="/">
+      <a>Home</a>
+    </Link>
+    <Link href="/contact">
+      <a>Contact</a>
+    </Link>
+    <Link href="/resume">
+      <a>Resume</a>
+    </Link>
+  </nav>;
+}
+
+export default Nav;

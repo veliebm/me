@@ -1,27 +1,17 @@
 import Head from "next/head";
-import Link from "next/link";
+import Nav from "../components/nav/nav";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
     <div>
       <Head>
-        <title>Home - Benjamin Velie</title>
+        <title>Contact - Benjamin Velie</title>
         <meta name="description" content="A site for all things Ben." />
         <link rel="icon" href="/favicon.png" />
       </Head>
 
-      <header className={styles.topnav}>
-        <Link href="/">
-          <a>Home</a>
-        </Link>
-        <Link href="/contact">
-          <a>Contact</a>
-        </Link>
-        <Link href="/resume">
-          <a>Resume</a>
-        </Link>
-      </header>
+      <Nav />
 
       <main className={styles.main}>
         <h1 className={styles.title}>Contact Me</h1>
