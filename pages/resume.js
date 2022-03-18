@@ -1,13 +1,12 @@
 import Head from "next/head";
 import Nav from "../components/nav/nav.js";
 import styles from "../styles/Home.module.css";
-import { useRouter } from "next/router";
 
 export default function Home() {
   return (
     <div>
       <Head>
-        <title>{useRouter().asPath} - Benjamin Velie</title>
+        <title>Resume - Benjamin Velie</title>
         <meta name="description" content="A site for all things Ben." />
         <link rel="icon" href="/favicon.png" />
       </Head>
