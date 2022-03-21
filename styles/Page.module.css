@@ -12,20 +12,12 @@
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
-}
-
-.title,
-.description {
   text-align: center;
 }
 
 .description {
-  margin: 1rem 3rem;
+  margin: 1rem 2rem;
   line-height: 1.5;
   font-size: 1.5rem;
-}
-
-.embedded {
-  height: 12.5in;
-  width: 8.5in;
+  text-align: center;
 }
