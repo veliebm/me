@@ -1,4 +1,4 @@
-import styles from "../styles/Home.module.css";
+import styles from "../styles/Page.module.css";
 
 export default function Home() {
   return (
@@ -7,10 +7,10 @@ export default function Home() {
         <h1 className={styles.title}>Resume</h1>
         <p className={styles.description}>
           Click{" "}
-          <a href="http://docs.google.com/document/d/1xBtPqaJIJh2-B5lSKAosCDThjqCF55ZrNGABK-p4G6E/export?format=pdf">
+          <a href="https://drive.google.com/file/d/1vdkHOPOIbYjDbAH9oOYO-dAwEUxgKjee/view?usp=sharing">
             here
           </a>{" "}
-          to download.
+          to view.
         </p>
       </main>
     </div>
