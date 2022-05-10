@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title>Benjamin Velie</title>
-        <meta name="description" content="A site for all things Ben." />
+        <meta name="description" content="GNU or bust" />
         <link rel="icon" href="/favicon.png" />
       </Head>
       <Nav />
